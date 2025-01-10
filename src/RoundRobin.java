@@ -3,6 +3,16 @@ import java.util.List;
 
 public class RoundRobin {
 
+    /**
+     *
+     * @param lists
+     * @param n
+     * @return list with n elements
+     *
+     * Given a list of lists, output the n first items in round robin order
+     * Assume list of integers
+     */
+
     public static List<Integer> getRoundRobinElements(List<List<Integer>> lists, int n) {
         List<Integer> result = new ArrayList<>();
         int listIndex = 0;
