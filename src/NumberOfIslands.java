@@ -29,8 +29,8 @@ class NumberOfIslands {
         for (int r = 0; r < grid.length; r++) {
             for (int c = 0; c < grid[0].length; c++) {
                 if (grid[r][c] == '1' && !visited[r][c]) {
-                    count++;
                     dfs(grid, r, c, visited);
+                    count++;
                 }
             }
         }
